@@ -18,6 +18,15 @@ ProjectSection(SolutionItems) = preProject
 	backup.md = backup.md
 EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankSystem", "BankSystem", "{DA57D439-A490-401A-9261-7F1D06DCF9E9}"
+ProjectSection(SolutionItems) = preProject
+	bank.md = bank.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Core", "BankSystem.Core\BankSystem.Core.csproj", "{6B533D31-B44B-4A45-A100-B7CF09AA55EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Core.Tests", "BankSystem.Core.Tests\BankSystem.Core.Tests.csproj", "{A6869EB7-ED05-4348-8535-03FE5DB5F3AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,11 +49,21 @@ Global
 		{2D7F2C64-68FB-4788-A461-791AEB7E8A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D7F2C64-68FB-4788-A461-791AEB7E8A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D7F2C64-68FB-4788-A461-791AEB7E8A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B533D31-B44B-4A45-A100-B7CF09AA55EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B533D31-B44B-4A45-A100-B7CF09AA55EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B533D31-B44B-4A45-A100-B7CF09AA55EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B533D31-B44B-4A45-A100-B7CF09AA55EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6869EB7-ED05-4348-8535-03FE5DB5F3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6869EB7-ED05-4348-8535-03FE5DB5F3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6869EB7-ED05-4348-8535-03FE5DB5F3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6869EB7-ED05-4348-8535-03FE5DB5F3AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CC92C539-A744-4EB8-BF62-408E31927E02} = {B833CEB0-8E10-4726-8109-2668DEF6167D}
 		{E83E79B1-B9C2-44D2-B215-B75035DFCEDE} = {B833CEB0-8E10-4726-8109-2668DEF6167D}
 		{4371D6FA-B054-455A-AC6C-DFBB0D32FD59} = {1101C33A-B131-4249-B46A-16B1565A0757}
 		{2D7F2C64-68FB-4788-A461-791AEB7E8A11} = {1101C33A-B131-4249-B46A-16B1565A0757}
+		{6B533D31-B44B-4A45-A100-B7CF09AA55EC} = {DA57D439-A490-401A-9261-7F1D06DCF9E9}
+		{A6869EB7-ED05-4348-8535-03FE5DB5F3AD} = {DA57D439-A490-401A-9261-7F1D06DCF9E9}
 	EndGlobalSection
 EndGlobal
